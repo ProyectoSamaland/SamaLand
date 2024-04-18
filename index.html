@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler Apartamento en Santa Marta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionales para centrar los títulos y justificar texto */
+        #apartment-description h2, #welcome h2 {
+            text-align: center;
+        }
+        #apartment-description p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Imagen de cabecera.jpeg" alt="Vista del Apartamento">
+        <h1>Alquiler de Apartamento en Santa Marta</h1>
+    </header>
+    <section id="welcome">
+        <h2>Bienvenidos a su Hogar en Santa Marta</h2>
+        <p>Disfrute de un cómodo apartamento amoblado perfecto para sus vacaciones. Ubicado cerca de las mejores atracciones de la ciudad.</p>
+    </section>
+    <section id="apartment-description">
+        <h2>Descripción del Apartamento</h2>
+        <p>Descubra la comodidad y conveniencia de nuestro acogedor apartamento, ubicado en el corazón de Santa Marta. A solo 15-20 minutos del aeropuerto y a 10 minutos a pie de las idílicas playas de El Rodadero, nuestro alojamiento es perfecto para parejas o familias pequeñas. El apartamento está amueblado con una cama doble y un camarote, ideal para hasta cuatro personas. Equipado completamente para su comodidad, cuenta con todos los elementos necesarios para la preparación de alimentos, un baño privado, ventilador y un encantador comedor para cuatro. Además, disfrutará de servicios esenciales como agua y electricidad. Situado a tan solo 5 minutos de la Troncal del Caribe y frente al almacén Olímpica, nuestro apartamento ofrece acceso fácil a los principales atractivos y destinos dentro de la ciudad.</p>
+    </section>
+    <section id="gallery">
+        <h2>Galería de Fotos</h2>
+        <div class="photo-grid">
+            <a href="Imagenes/A la derecha.jpeg" data-lightbox="gallery" data-title="Camino al mar ves este paisaje a tu mano derecha.">
+                <img src="Imagenes/A la derecha.jpeg" alt="Camino al mar ves este paisaje a tu mano derecha.">
+            </a>
+            <a href="Imagenes/A la izquierda.jpeg" data-lightbox="gallery" data-title="Y a la izquierda hayamos el destino preferido de muchos.">
+                <img src="Imagenes/A la izquierda.jpeg" alt="Y a la izquierda hayamos el destino preferido de muchos.">
+            </a>
+            <a href="Imagenes/Arbol sendero al Mar.jpeg" data-lightbox="gallery" data-title="El Sendero de Entrada a Playa.">
+                <img src="Imagenes/Arbol sendero al Mar.jpeg" alt="El Sendero de Entrada a Playa.">
+            </a>
+            <a href="Imagenes/6am Turistas trotando.jpeg" data-lightbox="gallery" data-title="Todas las mañanas encontramos este buen ejemplo.">
+                <img src="Imagenes/6am Turistas trotando.jpeg" alt="Todas las mañanas encontramos este buen ejemplo.">
+            </a>
+            <a href="Imagenes/Mesa para 4.jpeg" data-lightbox="gallery" data-title="Interior del apartamento.">
+                <img src="Imagenes/Mesa para 4.jpeg" alt="Interior del apartamento.">
+            </a>
+            <a href="Imagenes/Playa desde el Aeropuerto.jpeg" data-lightbox="gallery" data-title="Playa desde el Aeropuerto.">
+                <img src="Imagenes/Playa desde el Aeropuerto.jpeg" alt="Playa desde el Aeropuerto.">
+            </a>
+            <a href="Imagenes/Mascotas.jpeg" data-lightbox="gallery" data-title="Macotas.">
+                <img src="Imagenes/Mascotas.jpeg" alt="Mascotas.">
+            </a>
+            <a href="Imagenes/Olimpipca.jpeg" data-lightbox="gallery" data-title="Olimpica.">
+                <img src="Imagenes/Olimpica.jpeg" alt="Olimpica.">
+            </a>
+        </div>
+    </section>
+    <section id="videos">
+        <h2>Videos del Apartamento</h2>
+        <div class="video-grid">
+            <a href="Videos/Presentación del Apto.mp4" data-lightbox="video-gallery" data-title="Presentación del Apartamento.">
+                <video controls>
+                    <source src="Videos/Presentación del Apto.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+            </a>
+            <a href="Videos/Olimpica BelloHorrizonte.mp4" data-lightbox="video-gallery" data-title="Olimpica Bello Horizonte.">
+                <video controls>
+                    <source src="Videos/Olimpica BelloHorrizonte.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+	<a href="Videos/Panoramica_de_la_Ciudad.mp4" data-lightbox="video-gallery" data-title="Panorámica de la Ciudad.">
+    <video controls>
+        <source src="Videos/Panoramica_de_la_Ciudad.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+    </video>
+</a>
+            </a>
+            <a href="Videos/Playa vóleibol.mp4" data-lightbox="video-gallery" data-title="Playa Vóleibol.">
+                <video controls>
+                    <source src="Videos/Playa vóleibol.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+            </a>
+        </div>
+    </section>
+    <section id="booking">
+        <h2>Reserva tu Estadía</h2>
+        <label for="start-date">Fecha de Inicio:</label>
+        <input type="date" id="start-date" name="start-date">
+        <label for="end-date">Fecha Final:</label>
+        <input type="date" id="end-date" name="end-date">
+        <a href="https://wa.me/573013353618?text=Me%20interesa%20reservar%20el%20apartamento" target="_blank" class="whatsapp-button">Reservar via WhatsApp</a>
+    </section>
+    <section id="payment">
+        <h2>Métodos de Pago</h2>
+        <p>1. Nequi</p>
+        <p>2. Daviplata</p>
+        <p>3. Banco Bancolombia</p>
+    </section>
+    <section id="reviews">
+        <h2>Reseñas de Visitantes</h2>
+        <p>"Una experiencia maravillosa, el apartamento es hermoso y está bien ubicado. ¡Recomendado!" - Juan Sebastian y Carla.</p>
+        <p>"El lugar perfecto para una escapada romántica. Tranquilo y bien equipado, con todo lo necesario para sentirse como en casa." - Nelson Barrera</p>
+        <p>"Excelente ubicación y comodidades. Ideal para familias pequeñas o parejas. Nos encantó la cercanía a las playas y restaurantes." - Stella Miranda</p>
+        <p>"Un apartamento acogedor y encantador. Perfecto para nuestras vacaciones. Nos sentimos seguros y cómodos durante toda nuestra estancia." - Melanny Gissel</p>
+        <p>"Muy recomendable. Pequeño pero acogedor. Sin duda volveremos." - Alfonso Gil</p>
+        <p>"Fantástico alojamiento con todas las comodidades necesarias. Económico y minimalista." - Liliana Vuelvas</p>
+        <p>"Increíble experiencia. El apartamento es moderno, limpio y tiene una excelente ubicación. ¡Todo lo que podrías desear sin romper tus bolsillos!" - Boris Benavidez</p>
+    </section>
+    <section id="write-review">
+        <h2>Escribe tu Reseña</h2>
+        <form>
+            <label for="reviewer-name">Tu Nombre:</label>
+            <input type="text" id="reviewer-name" name="reviewer-name" required>
+            <label for="review-text">Tu Reseña:</label>
+            <textarea id="review-text" name="review-text" required></textarea>
+            <button type="submit">Enviar Reseña</button>
+        </form>
+    </section>
+    <footer>
+        <p>Derechos reservados © 2024</p>
+    </footer>
+    <script src="lightbox/js/lightbox.js"></script>
+</body>
+</html>
+

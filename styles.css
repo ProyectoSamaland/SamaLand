@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(to right, #3a7a5f, #1d4430); /* Verde oscuro con difuminado */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+}
+
+form input, form textarea, form button, input[type="date"] {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button, .whatsapp-button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+form button:hover, .whatsapp-button:hover {
+    background: #45a049;
+}
+
+.photo-grid, .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.photo-grid img, .video-grid video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-grid video {
+    max-height: 300px;
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.whatsapp-button:hover {
+    background-color: #1da851;
+}
